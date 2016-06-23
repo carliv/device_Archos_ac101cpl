@@ -84,7 +84,7 @@ endif
 ifeq ($(RECOVERY_VARIANT),carliv)
 VIBRATOR_TIMEOUT_FILE := /sys/devices/virtual/timed_output/vibrator/enable
 BOARD_USE_CUSTOM_RECOVERY_FONT := \"font_16x35.h\"
-DEVICE_RESOLUTION := 720x1280
+DEVICE_RESOLUTION := 800x1280
 BOARD_INCLUDE_CRYPTO := true
 BOARD_HAS_MTK_CPU := true
 endif
